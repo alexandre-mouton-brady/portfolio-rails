@@ -1,0 +1,28 @@
+// Place all the styles related to the Contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0; 
+    height: 84vh;
+}
+
+.contact > h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact > ul {
+    list-style: none;
+}
+
+.contact > ul > li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.contact > ul > li > i {
+    font-size: 50px;
+}

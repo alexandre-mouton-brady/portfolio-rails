@@ -18,10 +18,10 @@
 <header>
     <ul class="main-nav">
         <li><%= link_to 'Welcome', root_path %></li>
-        <li><%= link_to 'Portfolio', '/portfolio' %></a></li>
-        <li><%= link_to 'Blog', 'https://medium.com/@dexter36' %></li>
+        <li><%= link_to 'Portfolio', '/portfolio' %></li>
+        <li><%= link_to 'Blog', 'https://medium.com/@dexter36', target: "_blank" %></li>
         <li><%= link_to 'About', '/about' %></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to 'Contact', '/contact' %></li>
         <li>Alexandre Mouton-Brady</li>
     </ul>    
 </header>
@@ -30,9 +30,9 @@
 
 <footer class="main-footer">
     <ul>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">LinkedIn</a></li>
+        <li><%= link_to 'Github', 'https://github.com/alexandre-mouton-brady', target: '_blank' %></li>
+        <li><%= link_to 'Twitter', 'https://twitter.com/dextr36', target: '_blank' %></li>
+        <li><%= link_to 'LinkedIn', 'https://www.linkedin.com/in/alexandre-mouton-brady-727518119', target: '_blank' %></li>
         <li>&copy; Alexandre Mouton-Brady</li>
     </ul>
 </footer>
