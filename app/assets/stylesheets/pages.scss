@@ -11,15 +11,13 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    overflow: hidden;
 }
 
-.main-nav {
-    height: 6vh;
+header { height: 6vh; background: #34495e; }
+
+.main-nav {    
     margin: 0;
     padding-top: 1.15vh;
-    background: #34495e;
 }
 
 .main-nav > li {
@@ -96,13 +94,14 @@ body {
 // Footer
 
 .main-footer {
+    padding-top: 3.5vh;
+    height: 10vh;
     background: #ecf0f1;
+    clear: both;
 }
 
 .main-footer > ul {
-    list-style: none;
-    padding-top: 3.5vh;
-    height: 10vh;
+    list-style: none;   
 }
 
 .main-footer > ul > li {

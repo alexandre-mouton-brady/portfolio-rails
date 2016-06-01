@@ -1,0 +1,47 @@
+// Place all the styles related to the Portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.my-slider {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+.unslider-nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my-slider > ul > li > img {
+    width: 100%;
+    height: 500px;
+}
+
+.center {
+    width: 740px;
+    margin: 40px auto;
+}
+
+.duo {
+    clear: both;
+}
+
+.post > a > img {
+    width: 350px;
+    border: solid 1px rgba(0, 0, 0, 0.7);
+    border-radius: 2px;
+}
+
+.post > a > h2, .post > a > p  { text-align: center; }
+
+.post > a > p { color: black; }
+
+.post > a { transition: all linear .15s; }
+
+.post > a:hover { text-decoration: none; transition: all linear .15s; color: violet; }
+
+.post {
+    float: left;
+    margin: 0 10px 40px 10px;
+}

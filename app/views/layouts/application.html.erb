@@ -10,10 +10,32 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- FontAwesome -->
   <script src="https://use.fontawesome.com/70e3adc164.js"></script>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
 </head>
 <body>
+    
+<header>
+    <ul class="main-nav">
+        <li><%= link_to 'Welcome', root_path %></li>
+        <li><%= link_to 'Portfolio', '/portfolio' %></a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>Alexandre Mouton-Brady</li>
+    </ul>    
+</header>
 
 <%= yield %>
+
+<footer class="main-footer">
+    <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li>&copy; Alexandre Mouton-Brady</li>
+    </ul>
+</footer>
 
 </body>
 </html>
